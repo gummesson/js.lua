@@ -1,5 +1,7 @@
 # js.lua
 
+[![Build Status](https://travis-ci.org/gummesson/js.lua.png?branch=master)](https://travis-ci.org/gummesson/js.lua)
+
 Basic JavaScript-like array functions for Lua.
 
 ## Why?
