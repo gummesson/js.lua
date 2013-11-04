@@ -3,4 +3,4 @@ dev:
 
 test:
 	@echo "Running tests..."
-	@busted --output=tap --verbose
+	@busted
