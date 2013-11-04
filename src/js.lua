@@ -54,6 +54,7 @@ end
 -- Add the `val` as the first item in the `tbl`.
 --
 -- - `tbl` is a table.
+-- - `val` is a value.
 --
 function js.unshift(tbl, val)
   table.insert(tbl, 1, val)
@@ -78,7 +79,8 @@ end
 --
 -- Return a string by joining the values in the `tbl` with the `separator`.
 --
--- - `tbl` is a table.
+-- - `tbl`       is a table.
+-- ' `separator` is a string.
 --
 function js.join(tbl, separator)
   separator = separator or ''
