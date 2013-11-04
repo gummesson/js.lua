@@ -22,7 +22,7 @@ Adds the `val` as the last item to the `tbl`.
 js.tpop(tbl)
 ~~~
 
-Returns and removes the last item from the `tbl`. The equivalent of the actual JavaScript `.pop()` function.
+Returns and removes the last item from the `tbl`.
 
 ### js.shift
 
@@ -30,7 +30,7 @@ Returns and removes the last item from the `tbl`. The equivalent of the actual J
 js.tshift(tbl)
 ~~~
 
-Returns and removes the first item from the `tbl`. The equivalent of the actual JavaScript `.shift()` function.
+Returns and removes the first item from the `tbl`.
 
 ### js.unshift
 
