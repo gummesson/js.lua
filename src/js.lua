@@ -69,7 +69,7 @@ end
 --
 function js.reverse(tbl)
   local results = {}
-  for _, val in pairs(tbl) do
+  for _, val in ipairs(tbl) do
     table.insert(results, 1, val)
   end
   return results
