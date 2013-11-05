@@ -154,7 +154,7 @@
             
             <div class="content"><div class='highlight'><pre><span class="function"><span class="keyword">function</span> <span class="title">js.reverse</span><span class="params">(tbl)</span></span>
   <span class="keyword">local</span> results = {}
-  <span class="keyword">for</span> _, val <span class="keyword">in</span> <span class="built_in">pairs</span>(tbl) <span class="keyword">do</span>
+  <span class="keyword">for</span> _, val <span class="keyword">in</span> <span class="built_in">ipairs</span>(tbl) <span class="keyword">do</span>
     <span class="built_in">table</span>.insert(results, <span class="number">1</span>, val)
   <span class="keyword">end</span>
   <span class="keyword">return</span> results
