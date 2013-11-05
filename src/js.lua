@@ -3,7 +3,7 @@
 --
 -- Basic JavaScript-like array functions for Lua.
 --
--- **License:** MIT
+-- **License:** MIT  
 --  **Source:** [GitHub](https://github.com/gummesson/js.lua)
 --
 
@@ -125,4 +125,7 @@ function js.slice(tbl, start, stop)
 end
 
 -- ## Exports
+--
+-- Export `js` as a Lua module.
+--
 return js
