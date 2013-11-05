@@ -56,6 +56,8 @@ Returns a new table by reversing the order of the items in the `tbl`.
 js.splice(tbl[, start][, stop])
 ~~~
 
+Returns a specific portion of the `tbl` by going from the `start` and ending at the `stop`.
+
 ### js.join
 
 ~~~ lua
