@@ -22,7 +22,7 @@ Adds the `val` as the last item to the `tbl`.
 
 ~~~ lua
 js.push({1, 2}, 3)
-// {1, 2, 3}
+-- {1, 2, 3}
 ~~~
 
 ### js.pop
@@ -37,8 +37,8 @@ Returns and removes the last item from the `tbl`.
 
 ~~~ lua
 js.pop({1, 2, 3})
-// 3
-// {1, 2}
+-- 3
+-- {1, 2}
 ~~~
 
 ### js.shift
@@ -53,8 +53,8 @@ Returns and removes the first item from the `tbl`.
 
 ~~~ lua
 js.shift({1, 2, 3})
-// 1
-// {2, 3}
+-- 1
+-- {2, 3}
 ~~~
 
 ### js.unshift
@@ -69,7 +69,7 @@ Adds the `val` as the first item in the `tbl`.
 
 ~~~ lua
 js.unshift({2, 3}, 1)
-// {1, 2, 3}
+-- {1, 2, 3}
 ~~~
 
 ### js.reverse
@@ -84,7 +84,7 @@ Returns a new table by reversing the order of the items in the `tbl`.
 
 ~~~ lua
 js.reverse({1, 2, 3})
-// {3, 2, 1}
+-- {3, 2, 1}
 ~~~
 
 ### js.splice
@@ -99,7 +99,7 @@ Returns a specific portion of the `tbl` by going from the `start` and ending at 
 
 ~~~ lua
 js.slice({1, 2, 3, 4, 5, 6}, 3, 5)
-// {3, 4, 5}
+-- {3, 4, 5}
 ~~~
 
 ### js.join
@@ -114,10 +114,10 @@ Returns a string by joining the values in the `tbl` with the `separator`.
 
 ~~~ lua
 js.join({1, 2, 3})
-// '123'
+-- '123'
 
 js.join({1, 2, 3}, ', ')
-// '1, 2, 3'
+-- '1, 2, 3'
 ~~~
 
 ### js.split
@@ -132,10 +132,10 @@ Return a table by splitting the `str` by the `separator`.
 
 ~~~ lua
 js.split('this is a test')
-// {'this', 'is', 'a', 'test'}
+-- {'this', 'is', 'a', 'test'}
 
 js.split('this-is-a-test', '-')
-// {'this', 'is', 'a', 'test'}
+-- {'this', 'is', 'a', 'test'}
 ~~~
 
 ## License
