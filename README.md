@@ -87,10 +87,10 @@ js.reverse({1, 2, 3})
 -- {3, 2, 1}
 ~~~
 
-### js.splice
+### js.slice
 
 ~~~ lua
-js.splice(tbl[, start][, stop])
+js.slice(tbl[, start][, stop])
 ~~~
 
 Returns a specific portion of the `tbl` by going from the `start` and ending at the `stop`.
