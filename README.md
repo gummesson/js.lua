@@ -28,7 +28,7 @@ js.push({1, 2}, 3)
 ### js.pop
 
 ~~~ lua
-js.tpop(tbl)
+js.pop(tbl)
 ~~~
 
 Returns and removes the last item from the `tbl`.
