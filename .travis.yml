@@ -9,4 +9,4 @@ install:
 script: "make test"
 notifications:
   email:
-    - ellengummesson+jslua@gmail.com
+    - ellengummesson+travis-ci@gmail.com
