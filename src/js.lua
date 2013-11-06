@@ -80,7 +80,7 @@ end
 -- Return a string by joining the values in the `tbl` with the `separator`.
 --
 -- - `tbl`       is a table.
--- ' `separator` is a string.
+-- - `separator` is a string.
 --
 function js.join(tbl, separator)
   separator = separator or ''
@@ -91,8 +91,8 @@ end
 --
 -- Return a table by splitting the `str` by the `separator`.
 --
--- - `tbl`      is a table.
---  `separator` is a string.
+-- - `tbl`       is a table.
+-- - `separator` is a string.
 --
 function js.split(str, separator)
   local results = {}
