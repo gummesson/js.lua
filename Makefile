@@ -1,11 +1,11 @@
 .PHONY: test docs
 
 dev-nix:
-	@echo "Installing development dependencies..."
+	@echo "Installing the development dependencies..."
 	@sudo luarocks install busted
 
 dev-win:
-	@echo "Installing development dependencies..."
+	@echo "Installing the development dependencies..."
 	@luarocks install busted
 
 test:
