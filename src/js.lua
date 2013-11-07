@@ -32,9 +32,7 @@ end
 -- - `tbl` is a table.
 --
 function js.pop(tbl)
-  local last = tbl[#tbl]
-  table.remove(tbl, #tbl)
-  return last
+  return table.remove(tbl, #tbl)
 end
 
 -- ### js.shift
@@ -44,9 +42,7 @@ end
 -- - `tbl` is a table.
 --
 function js.shift(tbl)
-  local first = tbl[1]
-  table.remove(tbl, 1)
-  return first
+  return table.remove(tbl, 1)
 end
 
 -- ### js.unshift
