@@ -84,9 +84,7 @@
             </div>
             
             <div class="content"><div class='highlight'><pre><span class="function"><span class="keyword">function</span> <span class="title">js.pop</span><span class="params">(tbl)</span></span>
-  <span class="keyword">local</span> last = tbl[#tbl]
-  <span class="built_in">table</span>.remove(tbl, #tbl)
-  <span class="keyword">return</span> last
+  <span class="keyword">return</span> <span class="built_in">table</span>.remove(tbl, #tbl)
 <span class="keyword">end</span></pre></div></div>
             
         </li>
@@ -107,9 +105,7 @@
             </div>
             
             <div class="content"><div class='highlight'><pre><span class="function"><span class="keyword">function</span> <span class="title">js.shift</span><span class="params">(tbl)</span></span>
-  <span class="keyword">local</span> first = tbl[<span class="number">1</span>]
-  <span class="built_in">table</span>.remove(tbl, <span class="number">1</span>)
-  <span class="keyword">return</span> first
+  <span class="keyword">return</span> <span class="built_in">table</span>.remove(tbl, <span class="number">1</span>)
 <span class="keyword">end</span></pre></div></div>
             
         </li>
