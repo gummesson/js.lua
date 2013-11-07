@@ -126,7 +126,7 @@ js.join({1, 2, 3}, ', ')
 js.split(str[, separator])
 ~~~
 
-Return a table by splitting the `str` by the `separator`.
+Returns a table by splitting the `str` by the `separator`.
 
 #### Example
 
