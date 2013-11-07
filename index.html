@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>js</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="l-header">
+      <h1 class="l-logo">
+        <a href="index.html" class="link--hidden">js</a>
+      </h1>
+      <p class="smallprint">JavaScript-like array functions</p>
+    </header>
+    <article class="l-content">
+      <p><strong>js</strong> is a minimal library for using JavaScript-like array functions in <a href="http://www.lua.org/">Lua</a>.</p>
+      <p><a href="docs/index.html">The annotated source code is available</a>.
+<h2>API</h2>
+<h3>js.push</h3>
+<pre><code class="lua">js.push(tbl, val)</code></pre>
+<p>Adds the <code>val</code> as the last item to the <code>tbl</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.push({<span class="number">1</span>, <span class="number">2</span>}, <span class="number">3</span>)
+<span class="comment">-- {1, 2, 3}</span></code></pre>
+<h3>js.pop</h3>
+<pre><code class="lua">js.pop(tbl)</code></pre>
+<p>Returns and removes the last item from the <code>tbl</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.pop({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>})
+<span class="comment">-- 3</span>
+<span class="comment">-- {1, 2}</span></code></pre>
+<h3>js.shift</h3>
+<pre><code class="lua">js.shift(tbl)</code></pre>
+<p>Returns and removes the first item from the <code>tbl</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.shift({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>})
+<span class="comment">-- 1</span>
+<span class="comment">-- {2, 3}</span></code></pre>
+<h3>js.unshift</h3>
+<pre><code class="lua">js.unshift(tbl, val)</code></pre>
+<p>Adds the <code>val</code> as the first item in the <code>tbl</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.unshift({<span class="number">2</span>, <span class="number">3</span>}, <span class="number">1</span>)
+<span class="comment">-- {1, 2, 3}</span></code></pre>
+<h3>js.reverse</h3>
+<pre><code class="lua">js.reverse(tbl)</code></pre>
+<p>Returns a new table by reversing the order of the items in the <code>tbl</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.reverse({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>})
+<span class="comment">-- {3, 2, 1}</span></code></pre>
+<h3>js.slice</h3>
+<pre><code class="lua">js.slice(tbl[, start][, stop])</code></pre>
+<p>Returns a specific portion of the <code>tbl</code> by going from the <code>start</code> and ending at the <code>stop</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.slice({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>}, <span class="number">3</span>, <span class="number">5</span>)
+<span class="comment">-- {3, 4, 5}</span></code></pre>
+<h3>js.join</h3>
+<pre><code class="lua">js.join(tbl[, separator])</code></pre>
+<p>Returns a string by joining the values in the <code>tbl</code> with the <code>separator</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.join({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>})
+<span class="comment">-- '123'</span>
+
+js.join({<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>}, <span class="string">', '</span>)
+<span class="comment">-- '1, 2, 3'</span></code></pre>
+<h3>js.split</h3>
+<pre><code class="lua">js.split(str[, separator])</code></pre>
+<p>Return a table by splitting the <code>str</code> by the <code>separator</code>.</p>
+<h4>Example</h4>
+<pre><code class="lua">js.split(<span class="string">'this is a test'</span>)
+<span class="comment">-- {'this', 'is', 'a', 'test'}</span>
+
+js.split(<span class="string">'this-is-a-test'</span>, <span class="string">'-'</span>)
+<span class="comment">-- {'this', 'is', 'a', 'test'}</span></code></pre>
+    </article>
+    <footer class="l-footer">
+      <p class="smallprint">Another small thing by <a href="http://ellengummesson.com/">Ellen Gummesson</a>. <a href="https://github.com/gummesson/js.lua">Source on GitHub</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
