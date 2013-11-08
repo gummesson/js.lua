@@ -7,6 +7,10 @@
 --  **Source:** [GitHub](https://github.com/gummesson/js.lua)
 --
 
+-- ## References
+
+local table, ipairs = table, ipairs
+
 -- ## js
 --
 -- The namespace.
