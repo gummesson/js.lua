@@ -8,6 +8,12 @@ Basic JavaScript-like array functions for Lua.
 
 Because learning a new language is kind of fun.
 
+## Installation
+
+~~~
+luarocks build https://raw.github.com/gummesson/js.lua/master/js-dev-1.rockspec
+~~~
+
 ## API
 
 ### js.push
